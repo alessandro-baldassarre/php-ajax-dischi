@@ -7,3 +7,24 @@
 body{
     font-family: 'Mulish', sans-serif;
 }
+
+header{
+    background-color: #2E3A46;
+    height: 65px;
+    padding: 1rem;
+}
+
+header img{
+    width: 120px;
+    
+}
+
+main{
+    background-color: #1E2D3B;
+}
+
+main div.card{
+    background-color: #2E3A46;
+    border-radius: 12px;
+    height: 100%;
+}
