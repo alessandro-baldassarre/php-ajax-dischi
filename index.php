@@ -27,12 +27,13 @@
 </head>
 
 <body>
+    <div id="app">
+        
+        <?php include __DIR__ . "/components/header/header.php" ?>
 
-    <?php include __DIR__ . "/components/header/header.php" ?>
+        <?php include __DIR__ . "/components/main/main.php" ?>
 
-    <?php include __DIR__ . "/components/main/main.php" ?>
-
-
+    </div>
 
     <!-- axios cdn -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>

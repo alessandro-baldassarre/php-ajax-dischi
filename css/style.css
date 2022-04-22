@@ -28,3 +28,12 @@ main div.card{
     border-radius: 12px;
     height: 100%;
 }
+
+div.card h2{
+    font-size: 1rem;
+}
+
+div.card h5{
+    color: #7B736A;
+    font-size: .8rem;
+}
