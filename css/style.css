@@ -1,39 +1,36 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Mulish', sans-serif;
+    background-color: #1E2D3B;
 }
 
-header{
+header {
     background-color: #2E3A46;
     height: 65px;
     padding: 1rem;
 }
 
-header img{
+header img {
     width: 120px;
-    
+
 }
 
-main{
-    background-color: #1E2D3B;
-}
-
-main div.card{
+main div.card {
     background-color: #2E3A46;
     border-radius: 12px;
     height: 100%;
 }
 
-div.card h2{
+div.card h2 {
     font-size: 1rem;
 }
 
-div.card h5{
+div.card h5 {
     color: #7B736A;
     font-size: .8rem;
 }

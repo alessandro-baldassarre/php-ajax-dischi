@@ -6,6 +6,13 @@
 
 
     if (isset($_GET['genre'])){
+
+        $filteredAlbums = [];
+        foreach($albums as $album){
+            if($album["genre"] === $_GET['genre']){
+                $filteredAlbums[] = $album;
+            }
+        }
         
         header('Content-Type: application/json');
         echo json_encode(

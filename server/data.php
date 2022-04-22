@@ -93,11 +93,4 @@
         ],
     ];
 
-    $filteredAlbums = [];
-    foreach($albums as $album){
-        if($album["genre"] === $_GET['genre']){
-            $filteredAlbums[] = $album;
-        }
-    }
-
 ?>
