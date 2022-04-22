@@ -7,7 +7,7 @@
                 <div v-for="album in albums" class="col text-white ali">
                     <div class="card p-2 text-center">
                         <img class="mb-3" :src="album.coverUrl" :alt="album.title">
-                        <h2 class="album-title">{{album.title}}</h2>
+                        <h2 class="album-title text-uppercase">{{album.title}}</h2>
                         <h5 class="album-artist">{{album.artist}}</h5>
                         <h5 class="album-year">{{album.year}}</h5>
                     </div>
